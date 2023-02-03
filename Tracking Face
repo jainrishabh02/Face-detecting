@@ -1,0 +1,8 @@
+import dlib
+
+#Create the tracker we will use
+tracker = dlib.correlation_tracker()
+
+#The variable we use to keep track of the fact whether we are
+#currently using the dlib tracker
+trackingFace = 0
